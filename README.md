@@ -1,7 +1,8 @@
 📘 freeCodeCamp Projects
-Welcome to my freeCodeCamp learning journey! 🚀
+Welcome to my freeCodeCamp learning journey! 
 
-This repository is a collection of projects I've completed while studying various courses on freeCodeCamp.org. It's a place where I document my progress, apply new skills, and demonstrate what I've been learning.
+🚀 This repository is a collection of projects I've completed while studying various courses on freeCodeCamp.org.
+It's a place where I document my progress, apply new skills, and demonstrate what I've been learning.
 
 📚 What You'll Find Here
 Each project is organized by the certification or course it belongs to. Some of the areas covered include:

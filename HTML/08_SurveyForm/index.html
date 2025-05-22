@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+  
+  <body>
+    <h1 id="title">My Eight Project Survey Form</h1>
+    <p id="description">I have created this form while learning HTML. Thank you for taking the time to fill this form.</p>
+    <form id="survey-form">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name" id="name-label">Name (Required):</label>
+        <input required type="text" id="name" placeholder="Ex. Teodor Yanchev" />
+        <label for="email" id="email-label">Email (Required):</label>
+        <input required type="email" id="email" placeholder="exampl@email.com" />
+        <label for="number" id="number-label">Age:</label>
+        <input type="number" id="number" min="18" max="65" placeholder="18 to 65" />
+      </fieldset>
+      <fieldset>
+        <legend>What is your hobby?</legend>
+        <select id="dropdown">
+          <option selected value="exerciseing">Exerciseing</option>
+          <option value="reading">Reading</option>
+          <option value="gaming">Gaming</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Do you enjoy this form?</legend>
+        <label for="yes-option">Yes</label>
+        <input type="radio" id="yes-option" name="enjoy-form" value="yes-option" />
+        <label for="no-option">No</label>
+        <input type="radio" id="no-option" name="enjoy-form" value="no-option" />
+      </fieldset>
+      <fieldset>
+        <legend>What do you want us to add first?</legend>
+        <label for="contact-page">Contact Page</label>
+        <input type="checkbox" id="contact-page" name="contact-page" value="contact-page" />
+        <label for="about-page">About Page</label>
+        <input type="checkbox" id="about-page" name="about-page" value="about-page" />
+        <label for="example-page">Example Page</label>
+        <input type="checkbox" id="example-page" name="example-page" value="example-page" />
+      </fieldset>
+      <fieldset>
+        <legend>Do you want to add something we missed?</legend>
+        <textarea id="comment" rows="10" cols="35"></textarea>
+      </fieldset>
+      <button type="submit" id="submit">Submit</button>
+    </form>
+  </body>
+</html>

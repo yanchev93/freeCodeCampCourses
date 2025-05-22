@@ -1,4 +1,5 @@
-📘 freeCodeCamp Projects
+📘 freeCodeCamp Projects 📘
+
 Welcome to my freeCodeCamp learning journey! 
 
 🚀 This repository is a collection of projects I've completed while studying various courses on freeCodeCamp.org.

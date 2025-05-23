@@ -150,5 +150,4 @@ Example Code
 Inside the opening td tag, add the colspan attribute and set it to "2".
 
 And with that change, your table is complete!
----------
 

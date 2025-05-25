@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Checkout Page</title>
+</head>
+
+<body>
+    <h1>Checkout</h1>
+    <section>
+        <h2>Your Cart</h2>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/cube.jpg" alt="Rubic cube - Consists of a plastic cube divided into 27 smaller cubes, interlocking at the center cube and allowing each face to rotate independently of the others. Each of the six faces is covered by nine stickers, with each face in one of six solid colors: white, red, blue, orange, green, and yellow." >
+        <p>Rubic Cube: $19.99</p>
+    </section>
+    <section>
+        <h2>Payment Information</h2>
+        <form>
+            <label for="card-name">Card Name:</label>
+            <input required type="text" id="card-name" name="card-name" aria-required="true" />
+            </br>
+            <label for="card-number">Card Number:</label>
+            <input required type="number" id="card-number" name="card-number" aria-required="true" />
+            </br>
+            <label for="card-experation">Experation Date:</label>
+            <input required type="number" id="card-experation" name="card-experation" aria-required="true" />
+            </br>
+            <label for="card-cvv">CVV number:</label>
+            <input required type="number" id="card-cvv" name="card-cvv" aria-required="true" />
+            </br>
+            <button type="submit">Buy Now</button>
+        </form>
+    </section>
+</body>
+
+</html>

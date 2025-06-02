@@ -1,0 +1,51 @@
+h1 {
+  color: blue;
+  text-align: center;
+  margin: 50px 0;
+}
+
+label {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.todo-list {
+  list-style-type: none;
+  list-style-position: inside;
+  line-height: 30px;
+  max-width: 500px;
+  margin: 0 auto;
+  padding-inline-start: 0;
+}
+
+.first-child-list {
+  font-size: 18px;
+  margin: 10px 0;
+  background-color: lightgrey;
+  border-radius: 5px;
+}
+
+.sub-item li {
+  list-style-type: square;
+}
+
+a {
+  text-decoration: none;
+  color: #FF474C;
+}
+
+a:visited {
+  color: #871F78;
+}
+
+a:hover {
+  color: #0000CD;
+}
+
+a:focus {
+  outline: 4px solid darkblue;
+}
+
+a:active {
+  color: hotpink;
+}

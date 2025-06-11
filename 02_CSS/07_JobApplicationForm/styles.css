@@ -1,0 +1,22 @@
+body {
+  padding: 20px;
+}
+
+.container {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px gray;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  background-color: whitesmoke;
+  border-radius: 5px solid white;
+  padding: 30px;
+  margin: 20px auto;
+}

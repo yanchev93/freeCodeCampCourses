@@ -1,57 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Application Form</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <h1>Job Application Form</h1>
-      <form>
-        <label for="name">Full Name:</label>
-        <input type="text" id="name" required />
-        <br />
+        <h1>Job Application Form</h1>
+        <form>
+            <div class="separator">
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" placeholder="Enter your Full Name" required>
+            </div>
 
-        <label for="name">Email:</label>
-        <input type="email" id="email" required />
-        <br />
+            <div class="separator">
+                <label for="name">Email:</label>
+                <input type="email" id="email" placeholder="Enter your Email" required>
+            </div>
 
-        <label for="position">Position:</label>
-        <select id="position" required>
-          <option value="" disabled selected>Select a role</option>
-          <option value="front-end">Front-End Developer</option>
-          <option value="back-end">Back-End Developer</option>
-          <option value="full-stack">Full-Stack Developer</option>
-        </select>
-        <br />
+            <div class="separator">
+                <label for="position">Position:</label>
+                <select id="position" required>
+                <option value="" disabled selected>Select a role
+                </option>
 
-        <fieldset class="radio-group">
-          <legend>Availability</legend>
-          <input
-            type="radio"
-            id="full-time"
-            name="availability"
-            value="full-time"
-          />
-          <label for="full-time">Full-Time</label>
-          <input
-            type="radio"
-            id="part-time"
-            name="availability"
-            value="part-time"
-          />
-          <label for="part-time">Part-Time</label>
-        </fieldset>
-        <br />
+                <option value="front-end">Front-End Developer
+                </option>
 
-        <textarea id="message"></textarea>
-        <br />
+                <option value="back-end">Back-End Developer
+                </option>
 
-        <button type="submit">Apply for Job</button>
-      </form>
+                <option value="full-stack">Full-Stack Developer
+                </option>
+            </select>
+            </div>
+
+            <div class="separator">
+                <fieldset class="radio-group">
+                    <legend>Availability</legend>
+                    <input type="radio" id="full-time" name="availability" value="full-time">
+                    <label for="full-time">Full-Time</label>
+                    <input type="radio" id="part-time" name="availability" value="part-time">
+                    <label for="part-time">Part-Time</label>
+                </fieldset>
+            </div>
+
+            <div class="separator">
+                <label for="message">Why should we choose you?</label>
+                <textarea id="message" rows="5" placeholder="Tell us more about yourself..." required></textarea>
+            </div>
+
+            <div class="separator">
+            <button type="submit">Apply for Job</button>
+            </div>
+
+        </form>
     </div>
-  </body>
+</body>
+
 </html>

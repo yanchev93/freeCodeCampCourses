@@ -1,14 +1,19 @@
 #email {
+  box-sizing: border-box;
   padding: 50px;
   margin-top: 50px;
-  width: 396px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
   border: 2px solid black;
   background-color: #DDC7A0;
+  filter: drop-shadow(5px 5px 4px #000000);
 }
 
 #confidential{
   box-sizing: border-box;
   display: inline-block;
+  padding: 2px;
   font-size: 30px;
   margin-left: 70px;
   color: red;
@@ -19,12 +24,12 @@
 #top-secret {
   display: inline-block;
   padding: 5px;
-  margin-left: 250px;
+  margin-left: 150px;
   color: red;
-  transform: rotate(-30deg);
+  transform: rotate(30deg);
   border: 4px solid red;
 }
 
-span {
-
+.blurred {
+  filter: blur(3px);
 }

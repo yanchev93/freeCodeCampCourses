@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  background-color: #C0C0C0;
+  border-radius: 5px;
+  margin: 10px 20px;
+  padding: 20px 30px;
+}
+
+h1, main > p, div > p {
+  text-align: center;
+  padding: 5px;
+}
+
+#img-div {
+  max-width: 800px;
+  padding: 5px 0 20px 0;
+  background-color: #F2F2F2;
+  margin: 0 auto;
+}
+
+#image {
+  display: block;
+  margin: 10px auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#more-info{
+text-align: center;
+}
+
+ul {
+  margin: 20px;
+  display: inline-block;
+  text-align: left;
+}
+
+li {
+  padding: 8px 0;
+}
+
+span {
+  font-weight: bold;
+}

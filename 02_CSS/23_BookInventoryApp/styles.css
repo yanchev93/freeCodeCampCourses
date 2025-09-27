@@ -1,0 +1,106 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 50px;
+  margin: 20px;
+  padding: 10px;
+}
+
+main {
+  padding: 5px;
+}
+
+table {
+  font-size: 18px;
+  min-width: 350px;
+  background-color: white;
+  margin: 5px auto;
+  padding: 5px;
+}
+
+thead {
+  font-size: 25px;
+
+}
+
+td, th {
+  margin: 20px;
+  text-align: center;
+  padding: 5px;
+}
+
+tr[class="read"] {
+  background-image: linear-gradient(#01eb9d, lightgreen);
+}
+
+tr[class="to-read"] {
+  background-image: linear-gradient(#f30606, lightyellow);
+}
+
+tr[class="in-progress"] {
+  background-image: linear-gradient(#f9bd08, 
+  rgb(226, 199, 23));
+}
+
+span {
+  display: inline-block;
+}
+
+tr[class="to-read"] span[class="status"] {
+  width: 5em;
+  height: 20px;
+  border: 2px solid red;
+  border-radius: 7px;
+  background-image: linear-gradient(hsl(5, 100%, 75%), hsl(5, 100%, 50%));
+  padding: 2px;
+}
+
+tr[class="read"] span[class="status"] {
+  height: 20px;
+  width: 5em;
+  border: 2px solid rgb(13, 227, 77);
+  border-radius: 7px;
+background-image: linear-gradient(hsl(120, 75%, 75%), hsl(120, 75%, 50%));
+  padding: 2px;
+}
+
+tr[class="in-progress"] span[class="status"] {
+  height: 20px;
+  width: 5em;
+  border: 2px solid rgb(244, 173, 6);
+  border-radius: 7px;
+   background-image: linear-gradient(hsl(40, 90%, 75%), hsl(40, 90%, 50%));
+  padding: 2px;
+}
+
+span[class="status"], span[class^="rate"] {
+  height: 10px;
+  width: 50px;
+  padding: 5px;
+} 
+
+span[class^="rate"] > span {
+  border: 1.5px solid grey;
+  border-radius: 5px;
+  margin: 1px;
+  height: 8px;
+  width: 8px;
+  background-color: white;
+}
+
+span[class~="one"] span:first-child {
+  background-image: linear-gradient(hsl(40, 90%, 75%), hsl(40, 90%, 50%));
+}
+
+span[class~="two"] span:nth-child(1), span[class~="two"] span:nth-child(2){
+   background-image: linear-gradient(hsl(40, 90%, 75%), hsl(40, 90%, 50%));
+}
+
+span[class~="three"] span{
+  background-image: linear-gradient(hsl(40, 90%, 75%), hsl(40, 90%, 50%));
+  }
